@@ -5,65 +5,92 @@
 
 body {
     font-size: 1em;
-    font-family: "Trebuchet MS", helvetica,  sans-serif;
+    font-family: "Trebuchet MS", helvetica, sans-serif;
     background: #e6e6e6;
 }
 
 /*Formatacao cabeçalho*/
-header {
+.container-header {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(195, 153, 214);
 }
- header img {
+
+#logo img {
     height: 80px;
- }
- .area-cabecalho {
+}
+
+.area-cabecalho {
     width: 80%;
     padding: 15px;
     display: flex;
     justify-content: space-between;
     text-align: center;
     align-items: center;
- }
+}
+
 /*formatacao do menu*/
- nav a {
+.nav-item {
     padding: 20px;
     text-decoration: none;
- }
+    color: #5f1f7c;
+}
 
- nav a:hover {
+.nav-item:hover {
     color: #F7819F;
     background: #fff;
     border-radius: 3px;
     padding: 20px;
- }
- /*formatacao area de postagem*/
+    text-decoration: none;
+}
 
- article img {
+/*formatacao area de postagem*/
+
+article img {
     width: 100%;
     margin-top: 15px;
- }
- .container-buttons {
+}
+
+.container-buttons {
     display: flex;
     justify-content: space-between;
     padding: 10px;
- }
- .buttom {
+}
+
+.buttom {
     cursor: pointer;
-    background-color: rgb(195, 153, 214);
-    padding: 11px 21px;   
+    background-color: rgb(183, 64, 238);
+    padding: 11px 21px;
     width: 46%;
     border-radius: 3px;
     text-align: center;
 }
 
 .buttom a {
-     color: #fff;
+    color: #fff;
     text-decoration: none;
- }
- .buttom:hover {
-    background-color: #b169d3;
+}
+
+.buttom:hover {
+    background-color: #5f1f7c;
+}
+
+.conteudo-primario {
+    padding-left: 10px;
+}
+
+.conteudo-primario h1 {
+    color: #5f1f7c;
+}
+
+/*Slide*/
+.fotos-slides {
+    height: 500px;
+}
+
+/*Propriedades do Bootstrap*/
+.carousel {
+    padding-top: 10px;
 }
