@@ -19,7 +19,8 @@ body {
 }
 
 #logo img {
-    height: 80px;
+    height: 120px;
+    width: 120px;
 }
 
 .area-cabecalho {
@@ -85,6 +86,11 @@ article img {
     color: #5f1f7c;
 }
 
+.conteudo-primario p {
+    color: #5c585b;
+    margin-top: 10px;
+}
+
 /*Slide*/
 .fotos-slides {
     height: 500px;
@@ -93,4 +99,159 @@ article img {
 /*Propriedades do Bootstrap*/
 .carousel {
     padding-top: 10px;
+}
+
+/*Formatação pagina quem somos*/
+
+.conteudo-quemsomos {
+    padding-left: 10px;
+}
+
+.conteudo-quemsomos h1 {
+    color: #5f1f7c;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.container-texto {
+    display: flex;
+    justify-content: center;
+}
+
+.container-texto p {
+    color: #5c585b;
+    margin-top: 10px;
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+
+}
+
+/*Formatação do rodapé*/
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(195, 153, 214);
+    margin-top: 50px;
+}
+
+.rodape-item {
+    padding: 20px;
+    color: #5f1f7c;
+}
+
+/*Formatação pagina quero adotar*/
+
+#areatotal-cadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1{
+    width: 50%;
+}
+.div-2{
+    width: 25%;
+}
+#titulo-cadastro {
+    color: #5f1f7c;
+    margin: 20px 0 20px 20px;
+
+}
+
+.cadastro {
+    margin: 20px 0 20px 20px
+}
+
+.cadastro-icone1, .cadastro-icone2 {
+    background-color: rgb(195, 153, 214);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+
+.cadastro-icone1 a {
+    color: blue;
+    text-decoration: none;
+}
+
+.cadastro-icone1:hover {
+    background-color: #5f1f7c;
+}
+
+.cadastro-icone2 a {
+    color: red;
+    text-decoration: none;
+}
+
+.cadastro-icone2:hover {
+    background-color: #5f1f7c;
+}
+
+
+.cadastro-icone1 {
+    margin-bottom: 20px;
+}
+
+.imagens-icones {
+    width: 20px;
+    height: 20px;
+}
+
+.linha-pontilhado {
+    border-bottom: #5c585b dotted 2px;
+    width: 70%;
+    margin: 20px 0px 20px 20px;
+}
+
+.formulario {
+    margin: 20px 0px 20px 20px;
+}
+
+.caixas {
+    margin: 20px 0px 20px 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form-cad{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 300px;
+}
+
+
+.buttom2 {
+    margin: 20px 0px 20px 20px;
+    cursor: pointer;
+    background-color: rgb(195, 153, 214);
+    padding: 5px 5px;
+    width: 10%;
+    border-radius: 3px;
+    text-align: center;
+    border: #5f1f7c solid 0.5px;
+}
+
+.buttom2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.buttom2:hover {
+    background-color: #5f1f7c;
+}
+
+.imagem-formulario {
+    display: flex;
+
 }
