@@ -234,7 +234,7 @@ article img {
 .buttom2 {
     margin: 20px 0px 20px 20px;
     cursor: pointer;
-    background-color: rgb(195, 153, 214);
+    background-color: #5f1f7c;
     padding: 5px 5px;
     width: 10%;
     border-radius: 3px;
@@ -248,7 +248,7 @@ article img {
 }
 
 .buttom2:hover {
-    background-color: #5f1f7c;
+    background-color: red;
 }
 
 .imagem-formulario {
@@ -326,4 +326,63 @@ article img {
 
 .botton-doar:hover {
     background-color: red;
+}
+/*Formatação da pagina parceria*/
+
+.titulo-parceria {
+    color: #5f1f7c;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.conteudo-parceria {
+    display: flex;
+    justify-content: center;
+}
+.conteudo-parceria p {
+    color: #5c585b;
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.imagens1-parceria, .imagens2-parceria {
+    display: flex;
+    justify-content: center;
+}
+
+.imagens1-parceria, .imagens2-parceria {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-parceria img {
+    height: 200px;
+    padding: 20px;
+}
+.buttom-parceria {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}   
+
+.buttom-parceria a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-parceria:hover {
+    background-color: red;
+}
+.btn-parceria {
+    margin: 20px 0px 20px 20px;
+    cursor: pointer;
+    background-color: #5f1f7c;
+    padding: 10px;
+    border-radius: 3px;
+    border: #5f1f7c solid 0.5px;
 }
